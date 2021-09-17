@@ -58,7 +58,6 @@ Generator* createGenerator(std::string str) {
   char *s1 = NULL;
   char *s2 = NULL;
   char *s3 = NULL;
-  printf("a_ptr = %s\n", a_ptr);
 
   if (a_ptr) {
     s1 = strtok_r(a_ptr, ",", &saveptr);
